@@ -296,8 +296,51 @@ print(mensagem.strip())
 
 
 
+'''12º Operações matemáticas em Python'''
 
 
+
+print('--12--')
+
+# Adição e subtração 
+# Multiplicação e divisão    
+# Parenteses 
+# Exponenciais 
+
+calculo = 2 + 2
+
+print(calculo)
+
+calculo = 2 + 2 * 3
+# 2 + (2 * 3)
+print(calculo)
+
+#Se existe uma soma e uma multiplicação, a operação priorizada é a multiplicação.
+
+#Se tiver multiplicação e divisão na mesma linha, sempre será executando da esquerda para a direita.
+
+calculo = 2 + 2 * 3 / 2
+# 2 + ((2 * 3) / 2)
+print(calculo)
+
+calculo = (2 + 2) * 3
+
+print(calculo)
+
+calculo = 2 ** 3 
+
+# (**) significa expoente. 2 ** 3 = 2.2.2 = 8
+
+''' 
+Ordem das operações: 
+1º Parenteses
+2º Exponencial 
+3º Multiplicação e divisão
+4º Adição e subtração
+'''
+
+
+'''13º Operadores de comparação'''
 
 
 
