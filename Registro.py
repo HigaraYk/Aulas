@@ -340,8 +340,95 @@ Ordem das operações:
 '''
 
 
+
 '''13º Operadores de comparação'''
 
 
 
+print('--13--')
 
+
+# == Igual
+# != Não Igual
+# > Maior que 
+# < Menor que 
+# >= Maior ou igual a 
+# <= Menor ou igual a 
+
+operadores = 10 == 10 #true
+print(operadores)
+operadores = 'banana' == 'banana' #true
+print(operadores)
+operadores = 'banana' == 'Banana' #false
+print(operadores)
+
+operadores = 10 != 10 #false
+print(operadores)
+operadores = 'banana' != 'Banana' #True
+print(operadores)
+
+
+
+'''14º Operadores de atribuição'''
+
+
+
+print('--14--')
+
+x = 10 
+
+#x = x + 5
+x += 5 # (+=) é um operador de atribuição
+print(x)
+x -= 5 
+print(x)
+x *= 5
+print(x)
+x /= 5 
+print(x)
+
+
+x %= 3 # Aqui está perguntando quantos 3 cabem no valor x (no caso 10)
+# e qual será o valor final. (3+3+3 = 9-10 = 1) O resultado é: 1
+print(x)
+
+x %= 5 # 5+5 = 10-10 = 0 
+print(x)
+
+#o resultado final é o valor restante da conta
+
+
+
+'''15º If, Else'''
+
+
+
+print('--15--')
+
+# Contexto: Motorista em uma rodovia. 
+
+velocidade = 100 #Velocidade atual do veículo
+
+if velocidade > 110: #Limite de velocidade
+    print('Acima da velocidade permitida')
+    print('Reduza a sua velocidade')
+elif velocidade < 60:
+    print('Dirija acima de 80Km/h')
+else:
+    print('Velocidade OK')
+    
+
+#if é o começo 
+#else é o fim 
+
+#elif é o meio. Pode colocar quantos quiser
+
+
+
+'''16º Opeadores lógicos'''
+
+
+
+print('--16--')
+    
+# Contexto: Para financiar um carro, o indivíduo deve ter o nome 'limpo' caso o contrário, será recusado.
